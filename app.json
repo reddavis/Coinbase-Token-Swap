@@ -1,0 +1,25 @@
+{
+  "name": "Coinbase Token Swap Service",
+  "description": "Swap tokens for using Coinbase API",
+  "repository": "https://github.com/reddavis/Coinbase-Token-Swap",
+  "website": "https://red.to",
+  "addons": [],
+  "env": {
+    "CLIENT_ID": {
+      "description":
+        "Client ID of your Coinbase application. Find it at https://www.coinbase.com/settings/api",
+      "required": true
+    },
+    "CLIENT_SECRET": {
+      "description":
+        "Client Secret of your Coinbase application. Find it at https://www.coinbase.com/settings/api",
+      "required": true
+    },
+    "CLIENT_REDIRECT_URL": {
+      "description":
+        "A registered redirect URL for your Coinbase application. Set it at https://www.coinbase.com/settings/api",
+      "value": "yourapplication://",
+      "required": true
+    }
+  }
+}
